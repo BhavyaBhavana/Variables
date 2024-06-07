@@ -1,0 +1,42 @@
+Variables :
+
+1.Local variable: 
+
+Program :
+
+public class Example {
+    public static void main(String[] args) {
+        int localVar = 5; // Local variable declaration and initialization
+        System.out.println("Local variable value: " + localVar); // Accessing local variable
+    }
+}
+
+
+2:Instance variable :
+
+Program:
+
+public class InstanceVariable
+ {
+ 	int age=26;
+	public static void main(String[] args)
+	 {
+	 	//create object 
+	 	InstanceVariable student = new InstanceVariable();
+	 	System.out.println("Student age is:" +student.age);
+	}
+}
+
+
+3:Static variable :
+
+Program :
+
+public class Example {
+    static int staticVariable = 10; 
+
+    public static void main(String[] args) {
+        System.out.println("Static variable value: " + staticVariable); 
+    }
+}
+
